@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+.container{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.do{
+    font-family: 'Smooch', cursive;
+    margin-left: 70px;
+    font-size: 70px;
+}
+
+.cards1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    background-color: red;
+    margin: 10px;
+    font-size:10px;
+    text-align:center;
+    font-family: 'Shadows Into Light', cursive;
+    
+}
+.cards2{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(43, 255, 0);
+    margin: 10px;
+    background-color: rgb(43, 255, 0);
+    font-size:10px;
+    text-align:center;
+    font-family: 'Shadows Into Light', cursive;
+}
+.cards3{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(123, 0, 255);
+    background-color: rgb(123, 0, 255);
+    margin: 10px;
+    font-size:10px;
+    text-align:center;
+    font-family: 'Shadows Into Light', cursive;
+}
+.cards4{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(0, 17, 255);
+    background-color: rgb(0, 17, 255);
+    margin: 10px;
+    font-size:10px;
+    text-align:center;
+    font-family: 'Shadows Into Light', cursive;
+}
+.cards5{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(255, 234, 0);
+    background-color: rgb(255, 234, 0);;
+    margin: 10px;
+    font-size:10px;
+    text-align:center;
+    font-family: 'Shadows Into Light', cursive;
+}
+.cards6{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(0, 225, 255);
+    background-color:  rgb(0, 225, 255);;
+    margin: 10px;
+    font-size:10px;
+    text-align:center;
+    font-family: 'Shadows Into Light', cursive;
+}
+.cards7{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(255, 0, 183);
+    background-color: rgb(255, 0, 183);;
+    margin: 10px;
+    font-size:10px;
+    text-align:center;
+    font-family: 'Shadows Into Light', cursive;
+  
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
